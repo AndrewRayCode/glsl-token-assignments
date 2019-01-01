@@ -1,5 +1,5 @@
 {
-  "name": "glsl-token-assignments",
+  "name": "@andrewray/glsl-token-assignments",
   "version": "2.0.2",
   "description": "Take an array of GLSL tokens and determine which tokens are either assignments or variable declarations.",
   "main": "index.js",
@@ -10,11 +10,6 @@
     "test:eyeball": "PRETTY=1 node test > /dev/null",
     "test:browser": "browserify -t 6to5ify test | tap-closer | smokestack | tap-spec",
     "test:browser:view": "browserify -t 6to5ify test | smokestack | tap-spec"
-  },
-  "author": {
-    "name": "Hugh Kennedy",
-    "email": "hughskennedy@gmail.com",
-    "url": "http://hughsk.io/"
   },
   "dependencies": {},
   "devDependencies": {
@@ -30,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stackgl/glsl-token-assignments.git"
+    "url": "https://github.com/AndrewRayCode/glsl-token-assignments.git"
   },
   "keywords": [
     "ecosystem:stackgl",
